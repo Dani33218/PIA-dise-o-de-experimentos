@@ -5,9 +5,9 @@ library(shiny)
 library(ggplot2)
 library(dplyr)
 
-# Cargar interfaz y servidor
-source("interfaz.R")
+
+source("ui.R")
 source("server.R")
 
-# Lanzar aplicación
+
 shinyApp(ui = ui, server = server)
